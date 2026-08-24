@@ -1,0 +1,5 @@
+---
+title: "About"
+---
+
+This site is a starter skeleton for project documentation and content.

@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This is starter/skeleton content for the Responsible AI MEMs website.\nReplace this section with a concise description of the project scope, partners, and intended audience."
+  },
+  {
+    "objectID": "about.html#project-overview",
+    "href": "about.html#project-overview",
+    "title": "About",
+    "section": "",
+    "text": "This is starter/skeleton content for the Responsible AI MEMs website.\nReplace this section with a concise description of the project scope, partners, and intended audience."
+  },
+  {
+    "objectID": "about.html#goals",
+    "href": "about.html#goals",
+    "title": "About",
+    "section": "Goals",
+    "text": "Goals\n\nDefine practical responsible AI guidance for MEM workflows\nShare reusable templates, examples, and references\nSupport transparent and accountable modeling practice"
+  },
+  {
+    "objectID": "about.html#contact-and-contributing",
+    "href": "about.html#contact-and-contributing",
+    "title": "About",
+    "section": "Contact and Contributing",
+    "text": "Contact and Contributing\nPlaceholder: add contact details, contribution guidelines, and how collaborators can propose updates."
+  },
+  {
+    "objectID": "bookup-html/bookup-html.html",
+    "href": "bookup-html/bookup-html.html",
+    "title": "Responsible AI examples and best practices for Marine Ecosystem Modeling",
+    "section": "",
+    "text": "This is a default template for the bookup-html custom quarto format.\nYou can learn more about bookup in its Github repository.\nYou can learn more about controlling the appearance of HTML output at the quarto website."
+  },
+  {
+    "objectID": "bookup-html/bookup-html.html#introduction",
+    "href": "bookup-html/bookup-html.html#introduction",
+    "title": "Responsible AI examples and best practices for Marine Ecosystem Modeling",
+    "section": "",
+    "text": "This is a default template for the bookup-html custom quarto format.\nYou can learn more about bookup in its Github repository.\nYou can learn more about controlling the appearance of HTML output at the quarto website."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Responsible AI for Marine Ecosystem Models",
+    "section": "",
+    "text": "Welcome to this starter site for Best practices for responsible AI applied to Marine Ecosystem Models (MEMs).\nThis skeleton is intentionally concise and designed to be expanded over time."
+  },
+  {
+    "objectID": "index.html#purpose",
+    "href": "index.html#purpose",
+    "title": "Responsible AI for Marine Ecosystem Models",
+    "section": "Purpose",
+    "text": "Purpose\nOutline how responsible AI principles can support trustworthy MEM development and use."
+  },
+  {
+    "objectID": "index.html#starter-topics",
+    "href": "index.html#starter-topics",
+    "title": "Responsible AI for Marine Ecosystem Models",
+    "section": "Starter Topics",
+    "text": "Starter Topics\n\nData quality and stewardship\nModel transparency and documentation\nEvaluation, uncertainty, and risk communication\nGovernance and stakeholder engagement"
+  },
+  {
+    "objectID": "index.html#next-steps",
+    "href": "index.html#next-steps",
+    "title": "Responsible AI for Marine Ecosystem Models",
+    "section": "Next Steps",
+    "text": "Next Steps\nAdd project-specific methods, case studies, and implementation guidance."
+  },
+  {
+    "objectID": "index.html#best-practice-guides",
+    "href": "index.html#best-practice-guides",
+    "title": "Responsible AI for Marine Ecosystem Models",
+    "section": "Best Practice Guides",
+    "text": "Best Practice Guides\n\nBest Practices for Designing a Context Document"
+  },
+  {
+    "objectID": "context-document-best-practices.html",
+    "href": "context-document-best-practices.html",
+    "title": "Best Practices for Designing a Context Document",
+    "section": "",
+    "text": "Use this page to capture practical guidance for creating clear, useful context documents that support responsible AI workflows for marine ecosystem modeling."
+  },
+  {
+    "objectID": "context-document-best-practices.html#suggested-main-points-to-expand",
+    "href": "context-document-best-practices.html#suggested-main-points-to-expand",
+    "title": "Best Practices for Designing a Context Document",
+    "section": "Suggested Main Points to Expand",
+    "text": "Suggested Main Points to Expand\n\nPurpose and audience\n\nDefine what decisions the document supports and who will use it.\n\nSystem and problem context\n\nDescribe ecological scope, model boundaries, assumptions, and constraints.\n\nData provenance and quality\n\nRecord data sources, collection methods, known limitations, and stewardship practices.\n\nModel behavior and uncertainty\n\nExplain expected performance, uncertainty drivers, and risk implications.\n\nEthical and governance considerations\n\nDocument potential impacts, stakeholder concerns, and accountability processes.\n\nUpdate and review lifecycle\n\nSpecify versioning, ownership, review cadence, and triggers for updates."
+  }
+]

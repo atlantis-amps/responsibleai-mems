@@ -1,0 +1,9 @@
+/* Starter stylesheet for the Quarto website skeleton */
+
+body {
+  line-height: 1.6;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}

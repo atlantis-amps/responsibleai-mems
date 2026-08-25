@@ -1,0 +1,19 @@
+---
+title: "About"
+---
+
+## Project Overview
+
+This is starter/skeleton content for the Responsible AI MEMs website.
+
+Replace this section with a concise description of the project scope, partners, and intended audience.
+
+## Goals
+
+- Define practical responsible AI guidance for MEM workflows
+- Share reusable templates, examples, and references
+- Support transparent and accountable modeling practice
+
+## Contact and Contributing
+
+Placeholder: add contact details, contribution guidelines, and how collaborators can propose updates.

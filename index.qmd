@@ -20,3 +20,7 @@ Outline how responsible AI principles can support trustworthy MEM development an
 ## Next Steps
 
 Add project-specific methods, case studies, and implementation guidance.
+
+## Best Practice Guides
+
+- [Best Practices for Designing a Context Document](context-document-best-practices.qmd)

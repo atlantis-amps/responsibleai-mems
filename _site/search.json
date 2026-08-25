@@ -28,6 +28,20 @@
     "text": "Contact and Contributing\nPlaceholder: add contact details, contribution guidelines, and how collaborators can propose updates."
   },
   {
+    "objectID": "bookup-html/bookup-html.html",
+    "href": "bookup-html/bookup-html.html",
+    "title": "Responsible AI examples and best practices for Marine Ecosystem Modeling",
+    "section": "",
+    "text": "This is a default template for the bookup-html custom quarto format.\nYou can learn more about bookup in its Github repository.\nYou can learn more about controlling the appearance of HTML output at the quarto website."
+  },
+  {
+    "objectID": "bookup-html/bookup-html.html#introduction",
+    "href": "bookup-html/bookup-html.html#introduction",
+    "title": "Responsible AI examples and best practices for Marine Ecosystem Modeling",
+    "section": "",
+    "text": "This is a default template for the bookup-html custom quarto format.\nYou can learn more about bookup in its Github repository.\nYou can learn more about controlling the appearance of HTML output at the quarto website."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Responsible AI for Marine Ecosystem Models",

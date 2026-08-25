@@ -39,4 +39,5 @@ jobs:
 
       - name: Deploy to GitHub Pages
         id: deployment
+        if: ${{ github.event.repository.has_pages }}
         uses: actions/deploy-pages@v4

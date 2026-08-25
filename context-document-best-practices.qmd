@@ -1,0 +1,20 @@
+---
+title: "Best Practices for Designing a Context Document"
+---
+
+Use this page to capture practical guidance for creating clear, useful context documents that support responsible AI workflows for marine ecosystem modeling.
+
+## Suggested Main Points to Expand
+
+- **Purpose and audience**
+  - Define what decisions the document supports and who will use it.
+- **System and problem context**
+  - Describe ecological scope, model boundaries, assumptions, and constraints.
+- **Data provenance and quality**
+  - Record data sources, collection methods, known limitations, and stewardship practices.
+- **Model behavior and uncertainty**
+  - Explain expected performance, uncertainty drivers, and risk implications.
+- **Ethical and governance considerations**
+  - Document potential impacts, stakeholder concerns, and accountability processes.
+- **Update and review lifecycle**
+  - Specify versioning, ownership, review cadence, and triggers for updates.

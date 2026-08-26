@@ -11,6 +11,8 @@ website:
         text: Context Document Best Practices
       - href: about.qmd
         text: About
+      - href: glossary.qmd
+        text: Glossary
 
 format:
   html:

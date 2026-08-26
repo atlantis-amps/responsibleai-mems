@@ -4,11 +4,10 @@ title: "Responsible AI for Marine Ecosystem Models"
 
 Welcome to this starter site for **Best practices for responsible AI applied to Marine Ecosystem Models (MEMs)**.
 
-This skeleton is intentionally concise and designed to be expanded over time.
 
 ## Purpose
 
-Outline how responsible AI principles can support trustworthy MEM development and use.
+Outline how responsible AI principles can support trustworthy Marine Ecosystem Model development and use.
 
 ## Starter Topics
 

@@ -1,9 +1,9 @@
 ---
-title: "glossary"
+title: "Glossary"
 format: html
 ---
 
-# Glossary
+Modified from https://responsible-genai.hackweek.io/reference/glossary.html
 
 ## Foundational LLM and Agent Concepts
 

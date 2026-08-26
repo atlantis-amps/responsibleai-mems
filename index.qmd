@@ -40,11 +40,11 @@ Spillias 2026 summarises and exemplifies the potential contributions of GenAI to
 Spillias, S., 2026. A prospectus on generative artificial intelligence in marine ecosystem modelling. Fish and Fisheries, 27(2), pp.130-144.
 
 
-### This repository provides an introduction to LLM capabilites with MEM examples with a focus on Responsible AI, as a first step in understanding how Gen AI can accelerate the MEM modeling cycle.
+## This repository provides an introduction to LLM capabilites with MEM examples with a focus on Responsible AI, as a first step in understanding how Gen AI can accelerate the MEM modeling cycle.
 
-We describe foundational principles and best practices for reproducible, robust applications of GenAI.
+### We describe foundational principles and best practices for reproducible, robust applications of GenAI.
 
-Please refer to the following references for more advanced applications of Gen AI in MEM
+#### Please refer to the following references for more advanced applications of Gen AI in MEM
 
 Spillias, S., 2026. A prospectus on generative artificial intelligence in marine ecosystem modelling. Fish and Fisheries, 27(2), pp.130-144.
 
@@ -54,3 +54,5 @@ Spillias, S., E. A. Fulton, F. Boschetti, C. Bulman, J. Strzelecki, and R. Trebi
 
 Spillias, S., K. Ollerhead, M. Andreotta, et al. 2025. Evaluating Generative AI for Qualitative Data Extraction in Community-Based Fisheries Management Literature. Environmental Evidence 14, no. 1: 9.
 
+
+## See the CONTRIBUTING.md file if you are interested in contributing to this repository

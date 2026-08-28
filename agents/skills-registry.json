@@ -1,0 +1,66 @@
+{
+  "$schema": "https://schemas.anthropic.com/claude-code/skill-registry.json",
+  "version": "1.0.0",
+  "registry_name": "Responsible AI Marine Ecosystem Modeling Skills",
+  "description": "Agent skills for data processing, analysis, visualization, and ecosystem modeling",
+  "repository_url": "https://github.com/your-org/responsibleai-mems",
+  "documentation_url": "agents/docs/",
+  "skills": [
+    {
+      "id": "validate-ecosystem-data",
+      "name": "Validate Ecosystem Data",
+      "category": "data-processing",
+      "version": "1.0.0",
+      "description": "Validates ecosystem data against species reference library and data quality standards",
+      "path": "agents/skills/data-processing/validate-ecosystem-data",
+      "implementation": "R",
+      "entry_point": "agents/skills/data-processing/validate-ecosystem-data/implementation.R",
+      "metadata_file": "skill.yaml",
+      "documentation": "README.md",
+      "tags": ["data-processing", "validation", "ecosystem", "quality-assurance"],
+      "dependencies": [
+        "tidyverse",
+        "data.table",
+        "testthat"
+      ],
+      "author": "Responsible AI Research Team",
+      "enabled": true
+    },
+    {
+      "id": "list-species-by-region",
+      "name": "List Species by Region",
+      "category": "data-processing",
+      "version": "1.0.0",
+      "description": "Lists species available in the reference library filtered by geographic region",
+      "path": "agents/skills/data-processing/list-species-by-region",
+      "implementation": "R",
+      "metadata_file": "skill.yaml",
+      "documentation": "README.md",
+      "tags": ["data-processing", "species-reference", "ecosystem"],
+      "dependencies": [
+        "tidyverse"
+      ],
+      "author": "Responsible AI Research Team",
+      "enabled": true
+    }
+  ],
+  "skill_categories": {
+    "data-processing": "Data cleaning, validation, transformation, and preparation",
+    "analysis": "Statistical analysis, model fitting, and computational research",
+    "visualization": "Plotting, diagrams, and automated report generation",
+    "ecosystem-modeling": "Marine ecosystem-specific models and functions",
+    "utilities": "Helper functions and shared utilities"
+  },
+  "standards_compliance": {
+    "code_guidelines": "CLAUDE.md",
+    "testing_framework": "testthat",
+    "documentation_standard": "roxygen2",
+    "data_governance": "CLAUDE.md section on Data Governance & Boundaries"
+  },
+  "configuration": {
+    "auto_discovery": true,
+    "auto_load": false,
+    "validate_on_load": true,
+    "run_tests": false
+  }
+}

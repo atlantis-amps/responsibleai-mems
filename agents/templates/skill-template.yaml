@@ -1,0 +1,47 @@
+---
+# Skill Metadata Template
+# Copy this template when creating a new skill
+
+name: "skill-name"
+category: "data-processing"  # data-processing, analysis, visualization, ecosystem-modeling, utilities
+version: "0.1.0"
+author: "Your Name"
+created: "2026-08-28"
+
+description: |
+  Brief description of what this skill does.
+
+  This should explain:
+  - The primary function or capability
+  - When and why to use it
+  - Key inputs and outputs
+
+requirements:
+  r_packages:
+    - tidyverse
+    - testthat
+  r_version: "4.0.0"
+
+parameters:
+  - name: "input_param"
+    type: "data.frame"
+    description: "Description of the parameter"
+    required: true
+
+outputs:
+  - name: "result"
+    type: "data.frame"
+    description: "Description of the output"
+
+examples:
+  - description: "Basic usage example"
+    code: |
+      result <- skill_function(input_data)
+      print(result)
+
+documentation_url: "file:///agents/skills/{category}/{skill-name}/README.md"
+
+tags:
+  - "ecosystem-modeling"
+  - "data-processing"
+  - "reproducible-research"

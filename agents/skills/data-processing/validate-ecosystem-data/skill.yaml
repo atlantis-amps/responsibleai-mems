@@ -1,0 +1,64 @@
+---
+name: "validate-ecosystem-data"
+category: "data-processing"
+version: "0.1.0"
+author: "Marine Ecosystem Modeling Team"
+created: "2026-08-28"
+
+description: |
+  Validates and quality-checks marine ecosystem survey data.
+
+  This skill:
+  - Checks for missing values and data integrity
+  - Validates species identifiers against reference database
+  - Detects outliers in abundance and biomass measurements
+  - Flags suspicious sampling effort patterns
+  - Generates a comprehensive QC report
+
+requirements:
+  r_packages:
+    - tidyverse
+    - testthat
+    - data.table
+  r_version: "4.0.0"
+
+parameters:
+  - name: "survey_data"
+    type: "data.frame"
+    description: "Survey data with columns: species_id, abundance, biomass, sampling_effort, date"
+    required: true
+
+  - name: "reference_species"
+    type: "character vector"
+    description: "Vector of valid species identifiers"
+    required: true
+
+  - name: "outlier_threshold"
+    type: "numeric"
+    description: "Z-score threshold for outlier detection (default: 3)"
+    required: false
+    default: 3
+
+outputs:
+  - name: "validation_report"
+    type: "list"
+    description: "List containing quality_checks (data.frame) and summary statistics"
+
+  - name: "cleaned_data"
+    type: "data.frame"
+    description: "Validated survey data with flags for issues"
+
+examples:
+  - description: "Validate ecosystem survey data"
+    code: |
+      species_list <- c("Gadus_morhua", "Clupea_harengus", "Sebastes_mentella")
+      result <- validate_ecosystem_data(survey_data, species_list)
+      print(result$validation_report)
+
+documentation_url: "file:///agents/skills/data-processing/validate-ecosystem-data/README.md"
+
+tags:
+  - "ecosystem-modeling"
+  - "data-quality"
+  - "qc-validation"
+  - "survey-data"

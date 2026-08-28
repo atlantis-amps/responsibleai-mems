@@ -1,0 +1,74 @@
+---
+name: "list-species-by-region"
+category: "data-processing"
+version: "0.1.0"
+author: "Marine Ecosystem Modeling Team"
+created: "2026-08-28"
+
+description: |
+  Query FishBase to retrieve fish species present in a specific marine region.
+
+  This skill:
+  - Queries the FishBase database using rfishbase package
+  - Returns species present in a specified marine region
+  - Includes complete taxonomy (order, family, genus, species)
+  - Filters out invalid or incomplete records
+  - Generates summary statistics about species diversity
+
+requirements:
+  r_packages:
+    - rfishbase
+    - tidyverse
+    - testthat
+  r_version: "4.0.0"
+  notes: |
+    rfishbase requires internet access to query FishBase API.
+    First use may take longer due to data caching.
+
+parameters:
+  - name: "region"
+    type: "character"
+    description: "Marine region name (e.g., 'North Atlantic', 'Mediterranean', 'Coral Triangle')"
+    required: true
+
+  - name: "include_missing_taxonomy"
+    type: "logical"
+    description: "Include species with incomplete taxonomy information (default: FALSE)"
+    required: false
+    default: false
+
+  - name: "simplify"
+    type: "logical"
+    description: "Return simplified output (species and taxonomy only, default: TRUE)"
+    required: false
+    default: true
+
+outputs:
+  - name: "species_data"
+    type: "data.frame"
+    description: "Table with columns: Species, Genus, Family, Order (and additional details if simplify=FALSE)"
+
+  - name: "summary"
+    type: "list"
+    description: "Summary statistics including total species count, unique families/orders"
+
+examples:
+  - description: "List fish species in the North Atlantic"
+    code: |
+      result <- list_species_by_region("North Atlantic")
+      print(result$species_data)
+      print(result$summary)
+
+  - description: "Include incomplete taxonomy records"
+    code: |
+      result <- list_species_by_region("Mediterranean", include_missing_taxonomy = TRUE)
+      nrow(result$species_data)
+
+documentation_url: "file:///agents/skills/data-processing/list-species-by-region/README.md"
+
+tags:
+  - "fishbase"
+  - "species-inventory"
+  - "marine-regions"
+  - "data-retrieval"
+  - "taxonomy"

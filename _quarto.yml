@@ -7,6 +7,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: tutorial-foodweb-network.qmd
+        text: Tutorial: Food web network
       - href: context-document-best-practices.qmd
         text: Context Document Best Practices
       - href: about.qmd

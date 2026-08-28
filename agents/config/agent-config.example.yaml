@@ -1,0 +1,113 @@
+# Agent Skills Configuration Example
+# Copy this file to agent-config.yaml and customize for your environment
+
+agent:
+  name: "Marine Ecosystem Modeler Agent"
+  version: "1.0.0"
+  description: "Claude Code agent for ecosystem data processing and analysis"
+
+# Skill loading configuration
+skills:
+  enabled_categories:
+    - "data-processing"
+    - "analysis"
+    - "visualization"
+    - "ecosystem-modeling"
+    - "utilities"
+
+  # Skill discovery paths
+  skill_paths:
+    - "./agents/skills"
+
+  # Load on startup
+  autoload:
+    - "validate-ecosystem-data"
+    - "calculate-trophic-levels"
+
+# R environment configuration
+r_environment:
+  version_required: "4.0.0"
+
+  # Core packages required by all skills
+  core_packages:
+    - tidyverse
+    - data.table
+    - testthat
+    - roxygen2
+
+  # Default package installation method
+  install_method: "renv"  # or "pak", "install.packages"
+
+  # Suppress warnings for known, non-breaking issues
+  suppress_warnings:
+    - "package was built under R version"
+
+# Data governance
+data:
+  # Allowed data directories (privacy boundaries)
+  allowed_paths:
+    - "./data"
+    - "/tmp"
+
+  # Forbidden modifications (locked directories)
+  protected_paths:
+    - "./data/baselines"
+
+  # Enable data validation by default
+  validate_on_load: true
+
+# Logging and debugging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  format: "json"  # json or text
+  output_file: "./logs/agent.log"
+
+# Testing configuration
+testing:
+  # Run tests on skill load
+  run_tests_on_load: false
+
+  # Test framework
+  framework: "testthat"
+
+  # Test discovery patterns
+  test_patterns:
+    - "test-*.R"
+    - "*-test.R"
+
+# Performance settings
+performance:
+  # Maximum memory for data operations (GB)
+  max_memory: 8
+
+  # Enable parallel processing where available
+  parallel: true
+
+  # Number of cores to use (0 = auto-detect)
+  num_cores: 0
+
+# Documentation
+documentation:
+  # Generate skill documentation on startup
+  generate_on_startup: false
+
+  # Output format for generated docs
+  format: "markdown"
+
+  # Output directory
+  output_dir: "./agents/docs/generated"
+
+# Debugging
+debug:
+  # Enable debug mode
+  enabled: false
+
+  # Print function calls
+  trace_calls: false
+
+  # Print variable values
+  trace_variables: false
+
+  # Save intermediate results
+  save_intermediates: false
+  intermediates_dir: "./debug"

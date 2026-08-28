@@ -9,7 +9,7 @@ Welcome to this starter site for **Best practices for responsible AI applied to 
 
 Outline how responsible AI principles can support trustworthy Marine Ecosystem Model development and use.
 
-## What is Generative Artificial Intelligence (Generative AI)?
+## What is Generative Artificial Intelligence (GenAI)?
 
 Generative AI are probabilistic models that generate outputs based on the statistical patterns they have been trained on, with some degree of randomness built in. 
 
@@ -18,7 +18,12 @@ Generative AI are probabilistic models that generate outputs based on the statis
 LLMs are predictive models trained on massive datasets of text, giving them a broad understanding of the world and how language is used. They are NOT knowledge repositories or databases.
 The probabilistic nature of generative AI means that the same input can produce different outputs each time, which is a challenge for open and reproducible science.
 
-## What is Responsible Generative AI?
+An LLM: 
+- Is a static file containing trained data weights.
+- Only knows information up to their training date.
+- Has no native Web access, it cannot open a browser or ping a server
+
+## What is Responsible GenAI?
 
 Artificial Intelligence (AI) systems that adhere to the principles of:
 - Fairness

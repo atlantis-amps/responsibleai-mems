@@ -50,7 +50,7 @@ Install the rfishbase package
 install.packages("rfishbase")
 ```
 
-Run the 
+Run the AI coding agent
 ```{bash}
 claude
 "Give me a list of fish species in the California Current using the list-species-by-region skill"
